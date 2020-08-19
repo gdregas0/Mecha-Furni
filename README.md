@@ -9,12 +9,11 @@
 3. pip install django
 4. pip install djangorestframework
 5. python mysite/manage.py migrations
-  ( make data models which are used Appname )
-  5-1. python mysite/manage.py migrations **blog**
-  5-2. python mysite/manage.py migrations **books**
-  5-3. python mysite/manage.py migrations **polls**
-  5-4. python mysite/manage.py migrations **post**
-  
+( Make models which are used at App )
+* python mysite/manage.py migrations blog
+* python mysite/manage.py migrations books
+* python mysite/manage.py migrations polls
+* python mysite/manage.py migrations post
 6. python mysite/manage.py migrate
 7. python mysite/manage.py runserver 127.0.0.1:8000
 
